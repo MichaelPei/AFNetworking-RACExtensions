@@ -16,14 +16,8 @@ Pod::Spec.new do |s|
     ss.source_files = 'RACAFNetworking/RACSubscriber+AFProgressCallbacks.{h,m}'
   end
 
-  s.subspec 'NSURLConnection' do |ss|
-    ss.dependency 'AFNetworking/NSURLConnection', '~> 2.0'
-    ss.dependency 'ReactiveCocoa/Core', '~> 2.0'
-    ss.source_files = 'RACAFNetworking/AFURLConnectionOperation+RACSupport.{h,m}', 'RACAFNetworking/AFHTTPRequestOperationManager+RACSupport.{h,m}'
-  end
-
   s.subspec 'NSURLSession' do |ss|
-    ss.dependency 'AFNetworking/NSURLSession', '~> 2.0'
+    ss.dependency 'AFNetworking/NSURLSession', '~> 3.1.0'
     ss.dependency 'ReactiveCocoa/Core', '~> 2.0'
     ss.source_files = 'RACAFNetworking/AFHTTPSessionManager+RACSupport.{h,m}'
   end
