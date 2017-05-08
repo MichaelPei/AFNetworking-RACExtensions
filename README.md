@@ -4,13 +4,13 @@ Because I can no longer maintain this framework at the standards the open source
 
 ## AFNetworking-RACExtensions
 
-[![Build Status](https://travis-ci.org/CodaFi/AFNetworking-RACExtensions.svg?branch=master)](https://travis-ci.org/CodaFi/AFNetworking-RACExtensions)
+[![Build Status](https://travis-ci.org/MichaelPei/AFNetworking-RACExtensions.svg?branch=master)](https://travis-ci.org/MichaelPei/AFNetworking-RACExtensions)
 
 AFNetworking+RACExtensions is a delightful extension to the AFNetworking
 networking library for iOS and Mac OS X.  It's built on top of
 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa),
 [AFNetworking](https://github.com/AFNetworking/AFNetworking), extending the
-powerful high-level networking abstractions built into AFNetorking by lifting
+powerful high-level networking abstractions built into AFNetworking by lifting
 them into the Reactive world.  It has a modular architecture with well-designed,
 feature-rich APIs that are a joy to use.
 
@@ -43,4 +43,3 @@ AFNetworking 1.0 and higher requires either [iOS 5.0](http://developer.apple.com
 ## License
 
 AFNetworking+RACExtensions is available free of change under the Open Source license, along with the MIT license that AFNetworking uses.  Use it at your own risk.
-
